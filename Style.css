@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <title>JokeHub | Random Joke Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-shape shape-one"></div>
+    <div class="background-shape shape-two"></div>
+
+    <header class="navbar">
+        <a href="#" class="logo">
+            <span class="logo-icon">😂</span>
+            Joke<span class="logo-gradient">Hub</span>
+        </a>
+        <span class="nav-note">Small jokes...<br>Big smiles!</span>
+    </header>
+
+    <main class="main-content">
+
+        <section class="intro">
+            <div class="intro-icon">😂</div>
+            <h1>Random <span>Joke</span> Generator</h1>
+            <p>
+                Click the button below to get a random joke
+                and brighten your day!
+            </p>
+        </section>
+
+        <section class="joke-card">
+
+            <div class="card-top">
+                <span class="fresh-badge">
+                    ✨ &nbsp; Fresh Joke
+                </span>
+
+                <span class="api-badge">
+                    ☺ &nbsp; Powered by Official Joke API
+                </span>
+            </div>
+
+            <div class="joke-box">
+                <div class="quote-icon">“</div>
+
+                <p id="setup" aria-live="polite">
+                    Ready for a laugh?
+                </p>
+
+                <div class="joke-divider"></div>
+
+                <p id="punchline">
+                    Click the button to discover your joke!
+                </p>
+            </div>
+
+            <button id="jokeBtn" type="button">
+                <span class="button-icon">⟳</span>
+                <span id="buttonText">Get Another Joke</span>
+            </button>
+
+            <p id="status" aria-live="polite">
+                ☺ &nbsp; Your daily dose of happiness
+            </p>
+
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon purple">ϟ</div>
+                    <div>
+                        <strong>100% Free</strong>
+                        <small>No API key required</small>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon green">◎</div>
+                    <div>
+                        <strong>Live Data</strong>
+                        <small>From a public API</small>
+                    </div>
+                </div>
+
+                <div class="feature">
+                    <div class="feature-icon pink">♥</div>
+                    <div>
+                        <strong>Made for Smiles</strong>
+                        <small>Because you deserve it!</small>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <footer>
+            Happy coding! <span>♥</span> &nbsp; | &nbsp; JokeHub
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>v
